@@ -25,10 +25,11 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 28
-
+    compileSdkVersion 36
+    namespace "com.sayegh.move_to_background"
     defaultConfig {
         minSdkVersion 16
+        targetSdkVersion 36
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
